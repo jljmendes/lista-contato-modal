@@ -15,6 +15,9 @@ if(isset($_POST["user_id"])){
 	
 	$resultado .= '<dt class="col-sm-3">Nome</dt>';
 	$resultado .= '<dd class="col-sm-9">'.$row_user['nome'].'</dd>';
+
+	$resultado .= '<dt class="col-sm-3">Telefone</dt>';
+	$resultado .= '<dd class="col-sm-9">'.$row_user['telefone'].'</dd>';
 	
 	$resultado .= '<dt class="col-sm-3">E-mail</dt>';
 	$resultado .= '<dd class="col-sm-9">'.$row_user['email'].'</dd>';

@@ -60,6 +60,13 @@
 									<input name="nome" type="text" class="form-control" id="nome" placeholder="Nome completo">
 								</div>
 							</div>
+
+							<div class="form-group row">
+								<label class="col-sm-2 col-form-label">Telefone</label>
+								<div class="col-sm-10">
+									<input name="telefone" type="text" class="form-control" id="telefone" placeholder="Telefone">
+								</div>
+							</div>
 							
 							<div class="form-group row">
 								<label class="col-sm-2 col-form-label">Email</label>

@@ -19,6 +19,7 @@ if(($resultado_usuario) AND ($resultado_usuario->num_rows != 0)){
 			<tr>
 				<th>ID</th>
 				<th>Nome</th>
+				<th>Telefone</th>
 				<th>E-mail</th>
 				<th>Ações</th>
 			</tr>
@@ -30,6 +31,7 @@ if(($resultado_usuario) AND ($resultado_usuario->num_rows != 0)){
 				<tr>
 					<th><?php echo $row_usuario['id']; ?></th>
 					<td><?php echo $row_usuario['nome']; ?></td>
+					<td><?php echo $row_usuario['telefone']; ?></td>
 					<td><?php echo $row_usuario['email']; ?></td>
 					<td>
 						<button type="button" class="btn btn-outline-primary view_data" id="<?php echo $row_usuario['id']; ?>">Visualizar</button>
